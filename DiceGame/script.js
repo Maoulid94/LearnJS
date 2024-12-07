@@ -41,7 +41,7 @@ roll_btn.addEventListener("click", () => {
       currentScore;
       switchPlayer()
   } else {
-    currentScore = 0x
+    currentScore = 0
     scores[activePlayer] += currentScore;
     document.getElementById(`score--${activePlayer}`).textContent =
       scores[activePlayer];
