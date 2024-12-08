@@ -128,7 +128,14 @@ main {
   display: inline-block;
   margin-right: 0.7rem;
 }
-
+.win {
+  font-size: 2.4rem;
+  margin-bottom: 20px;
+  padding: 5px;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
+  color: #fff;
+  display: none;
+}
 .btn--new {
   top: 4rem;
 }
@@ -137,6 +144,7 @@ main {
 }
 .btn--hold {
   top: 46.1rem;
+  display: none;
 }
 
 .btn:active {
@@ -165,6 +173,6 @@ main {
   font-weight: 700;
   color: #c7365f;
 }
-.hidden{
+.hidden {
   display: none;
 }
